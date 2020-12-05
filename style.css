@@ -1,0 +1,227 @@
+html{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+
+body.index{
+    background-image: url("images/orange-davisuko.jpg");
+    background-size: cover;
+    display: flexbox;
+}
+
+body.contact{
+    background-image: url("images/orange-davisuko.jpg");
+    background-size: cover;
+    display: flexbox;
+}
+
+body.about{
+    background-image: url("images/orange-davisuko.jpg");
+    background-size: cover;
+    display: flexbox;
+}
+
+h1.index{
+    text-align: right;
+    padding: 10px;
+    margin: 20px 20px;
+    font-size: 30px;
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+}
+
+
+h1.contact{
+    text-align: center;
+    padding: 20px;
+    margin: 20px 20px;
+    font-size: 30px;
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+h1.about{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family:'Major Mono Display', monospace;
+
+}
+
+h2.about{
+    font-size: 18px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin:70px;
+    padding: 30px;
+    width:400px 400px;
+    height:400px;
+    background:rgba(0,0,0,0.2);
+    text-align: left;
+    display: inline-flexbox;
+
+
+}
+
+.j1{
+    text-align: center;
+
+}
+
+.j2{
+    text-align:center;
+  
+}
+.nav{
+    height:70px;
+}
+
+ul{
+    margin:0px;
+    width:500px;
+    height:0px;
+    list-style: none;
+    background:rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+li{
+    margin-top: 0px;
+    display: inline-flex;
+   
+    
+}
+
+li a{
+    text-decoration:none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family:'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size:17px;
+    transition:1s;
+    padding: 25px 30px;
+}
+
+li a:hover{
+    transition: 1s;
+    color: orange;
+    background: rgba(255,255,255,0.7);
+}
+
+.topnav {
+    background-color: rgb(252, 224, 255);
+    overflow: scroll;
+  }
+
+.topnav a {
+    float: left;
+    color: rgb(3, 3, 0);
+    text-align: left;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:'Raleway', sans-serif;
+
+} 
+
+.topnav a.active {
+    background-color:rgb(255,255,224);
+    color: rgb(3, 3, 3);
+  }
+
+
+
+input, textarea{
+    width: 200px;
+    padding: 10px;
+}
+
+.send input{
+    cursor: pointer;
+    background-color: orange;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: white
+}
+
+textarea{
+    width: 270px;
+    height: 120px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+.icon-barc {
+    position: unset;
+    top: 50%;
+    -webkit-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    transform: translateY(-20%);
+  }
+  /* Style the icon bar links */
+ .icon-barc a {
+    display: list-item;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+
+  }
+   /* Style the social media icons with color, if you want */
+  
+  .icon-barc a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3b58988e;
+    color: white;
+  }
+  .github {
+    background: rgba(0, 0, 0, 0.459);
+    color: white;
+  }
+  .linkedin {
+    background: #007cb58f;
+    color: white;
+  }
+  .pinterest{
+    background: rgba(255, 0, 0, 0.527);
+    color: white;
+  }
+
+ .iconshtml{
+    display: list-item;
+    text-align: right;
+
+
+ }
+
+
+
